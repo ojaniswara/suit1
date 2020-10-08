@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="font/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm">
+        <h1 class="judul">Batu Gunting Kertas</h1>
+        <h2 class="instruksi">Reload untuk bermain! </h2>
+        <i class="fa fa-refresh" aria-hidden="true"></i>
+        <div class="row justify-content-center space_3">
+          <div class="col-sm">
+            <div class="row justify-content-center"><span class="highlight player_name">Pemain 1</span></div>
+            <div class="row justify-content-center space_2"><img id="player1" src="img/batu-kiri.png" alt=""></div>
+          </div>
+          <div class="col-sm">
+            <div class="row justify-content-center"><span class="highlight player_name">Pemain 2</span></div>
+            <div class="row justify-content-center space_2"><img id="player2" src="img/batu-kanan.png" alt=""></div>
+          </div>
+        </div>
+        <div id="hasil" class="row space_2">
+          <div class="col-sm">
+            <div class="row justify-content-center"><div id="pesan_p1" class="kotak_pesan menang">Kamu menang</div></div>
+          </div>
+          <div class="col-sm">
+            <div class="row justify-content-center"><div id="pesan_p2" class="kotak_pesan menang">Kamu menang</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/behaviour.js"></script>
+</body>
+</html>
